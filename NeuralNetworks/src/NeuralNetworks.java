@@ -13,6 +13,7 @@ public class NeuralNetworks {
     private Random random;
 
 
+
     public NeuralNetworks(double density, double velocity){
         random = new Random();
         bias = random.nextDouble();
